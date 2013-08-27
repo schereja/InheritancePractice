@@ -9,9 +9,9 @@ package concretepackage;
  * @author schereja
  */
 public class Employee {
-    public int employeeId;
-    public String firstName;
-    public String lastName;
+    private int employeeId;
+    private String firstName;
+    private String lastName;
     public boolean employed;
 }
 class HourlyEmployee extends Employee{

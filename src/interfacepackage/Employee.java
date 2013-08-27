@@ -9,5 +9,8 @@ package interfacepackage;
  * @author schereja
  */
 public interface Employee {
-    
+    public abstract void Pay();
+    public abstract void hired();
+    public abstract void firstName();
+    public abstract void lastName();
 }
