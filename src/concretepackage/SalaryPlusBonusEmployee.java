@@ -10,4 +10,5 @@ package concretepackage;
  */
 class SalaryPlusBonusEmployee{
     private double salaryWithBonus;
+    
 }

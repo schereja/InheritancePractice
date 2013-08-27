@@ -9,7 +9,13 @@ package concretepackage;
  * @author schereja
  */
 public class ConcretePackage {
+    
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Employee newEmployee = new Employee();
+        newEmployee.welcome();
+        SalariedEmployee newSalariedEmployee = new SalariedEmployee();
+        newSalariedEmployee.welcome();
+        newSalariedEmployee.displaySalary();
+        
     }  
 }

@@ -9,5 +9,12 @@ package concretepackage;
  * @author schereja
  */
 class SalariedEmployee extends Employee{
-    private double salary;
+    
+    public void displaySalary(){
+        int salary = 10000;
+        System.out.println(salary);
+    }
+    public void welcome(){
+        System.out.println("Welcome Salaried Employee");
+    }
 }
