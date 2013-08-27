@@ -8,8 +8,6 @@ package concretepackage;
  *
  * @author schereja
  */
-public class Employee{
-    public void welcome(){
-    System.out.println("Hello World!");
-    }
+class HourlyEmployee extends Employee{
+    private double payPerHour;
 }

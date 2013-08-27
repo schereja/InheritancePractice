@@ -8,8 +8,8 @@ package concretepackage;
  *
  * @author schereja
  */
-public class Employee{
-    public void welcome(){
-    System.out.println("Hello World!");
-    }
+public class ConcretePackage {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }  
 }
