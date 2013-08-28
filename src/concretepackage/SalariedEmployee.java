@@ -7,7 +7,8 @@ package concretepackage;
 /**
  *
  * @author schereja
- */
+ 
+Hourly Employee class which Inherits from Employee*/
 class SalariedEmployee extends Employee{
     
     public void displaySalary(){

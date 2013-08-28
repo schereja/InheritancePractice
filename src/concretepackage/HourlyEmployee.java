@@ -8,6 +8,11 @@ package concretepackage;
  *
  * @author schereja
  */
+//Hourly Employee class which Inherits from Employee
 class HourlyEmployee extends Employee{
-    private double payPerHour;
+   private double hourlyRate;
+   
+   public HourlyEmployee(double hours){
+       
+   }
 }

@@ -16,6 +16,7 @@ public class ConcretePackage {
         SalariedEmployee newSalariedEmployee = new SalariedEmployee();
         newSalariedEmployee.welcome();
         newSalariedEmployee.displaySalary();
+ 
         
     }  
 }
