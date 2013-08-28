@@ -16,7 +16,8 @@ public class ConcretePackage {
         SalariedEmployee newSalariedEmployee = new SalariedEmployee();
         newSalariedEmployee.welcome();
         newSalariedEmployee.displaySalary();
- 
-        
+        SalaryPlusBonusEmployee newBonusEmployee = new SalaryPlusBonusEmployee(10000);
+        double bonus = newBonusEmployee.getBonus();
+        System.out.println("Your bonus is: " + bonus);
     }  
 }

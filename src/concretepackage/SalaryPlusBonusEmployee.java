@@ -10,13 +10,12 @@ package concretepackage;
  */
 class SalaryPlusBonusEmployee{
     private double salary;
-    private double bonusPercentage;
-    
+    private double bonusPercentage = .06;
     public SalaryPlusBonusEmployee(double salary){
         this.salary = salary;
         
     }
     public double getBonus(){
-        return salary * bonusPercentage;
+        return (salary * bonusPercentage);
     }
 }

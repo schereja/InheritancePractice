@@ -8,6 +8,6 @@ package interfacepackage;
  *
  * @author schereja
  */
-public interface Employee {
-    public abstract double getEmployeesPay();
+public class SalaryPlusBonusEmployee {
+    
 }
