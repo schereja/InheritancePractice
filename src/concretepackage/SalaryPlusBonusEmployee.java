@@ -8,14 +8,28 @@ package concretepackage;
  *
  * @author schereja
  */
-class SalaryPlusBonusEmployee{
-    private double salary;
-    private double bonusPercentage = .06;
-    public SalaryPlusBonusEmployee(double salary){
-        this.salary = salary;
+class SalaryPlusBonusEmployee extends SalariedEmployee {
+   private double bonusPercentage = .06;
+   private double bonusAmount;
+    public void bonusAmount(double salary){
+        bonusAmount =  salary * bonusPercentage;
+        System.out.println("Your bonus is: " + bonusAmount);
         
     }
-    public double getBonus(){
-        return (salary * bonusPercentage);
+    public double getBonusPercentage() {
+        return bonusPercentage;
     }
+
+    public void setBonusPercentage(double bonusPercentage) {
+        this.bonusPercentage = bonusPercentage;
+    }
+
+    public double getBonusAmount() {
+        return bonusAmount;
+    }
+
+    public void setBonusAmount(double bonusAmount) {
+        this.bonusAmount = bonusAmount;
+    }
+   
 }

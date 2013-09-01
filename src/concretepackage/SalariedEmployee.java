@@ -10,12 +10,23 @@ package concretepackage;
  
 Hourly Employee class which Inherits from Employee*/
 class SalariedEmployee extends Employee{
-    
-    public void displaySalary(){
-        int salary = 10000;
-        System.out.println(salary);
+    private int salary;
+    private double timesPaid;
+
+    public double getSalary() {
+        return salary;
     }
-    public void welcome(){
-        System.out.println("Welcome Salaried Employee");
+
+    public void setSalary(int salary) {
+        this.salary = salary;
     }
+
+    public double getTimesPaid() {
+        return timesPaid;
+    }
+
+    public void setTimesPaid(double timesPaid) {
+        this.timesPaid = timesPaid;
+    }
+//    
 }
