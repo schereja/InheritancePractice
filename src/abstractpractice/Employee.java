@@ -9,31 +9,43 @@ package abstractpractice;
  * @author schereja
  */
 public abstract class Employee {
-    
     private String firstName;
     private String lastName;
-    private String hireDate;
     private String job;
+    private String hireDate;
     
-    public Employee(String firstName, String lastName, String hireDate, String job){
-        String name = firstName + lastName;
-        setFirstName(firstName);
-        setLastName(lastName);
-        setHireDate(hireDate);
-        setJob(job);
+    public abstract void pay();
+    
+    public String getFirstName() {
+        return firstName;
     }
-    public abstract double getEmployeePay();
-    
-    public void setFirstName(String firstName){
+
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
-    public void setLastName(String lastName){
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-    public void setHireDate(String hireDate){
-        this.hireDate = hireDate;
+
+    public String getJob() {
+        return job;
     }
-    public void setJob(String job){
+
+    public void setJob(String job) {
         this.job = job;
     }
+
+    public String getHireDate() {
+        return hireDate;
+    }
+
+    public void setHireDate(String hireDate) {
+        this.hireDate = hireDate;
+    }
+
 }
