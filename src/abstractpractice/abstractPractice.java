@@ -17,6 +17,11 @@ public class abstractPractice {
     he1.pay();
         System.out.println("Hello " + he1.getFirstName() + ". You are a " + he1.getJob() + ".");
         
-        
+    SalaryPlusBonusEmployee spbe1 = new SalaryPlusBonusEmployee();
+    spbe1.setSalary(15000);
+    spbe1.setFirstName("Jack");
+    spbe1.setHireDate("Oct 20th 2012");
+    spbe1.pay();
+        System.out.println("Your bonus is " + spbe1.bonusAmount());
     }
 }
